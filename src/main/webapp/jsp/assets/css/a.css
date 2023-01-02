@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+ .header{
+ background-color: #E6E6FA;
+ text-align: center;
+ padding: 2%;
+ }
+ 
+ .header h3{
+ font-size: 175%;
+ }
+ .header ul li a{
+ text-decoration: none;
+ color: black;
+ }
+ 
+ .header ul{
+ display: inline-flex;
+ list-style: none;
+ color: black;
+ }
+ 
+.header ul li{
+width:150px;
+margin: 15px;
+padding: 15px;
+font-size: 20px;	
+width: 10%;
+	
+}
+ /* Drop down coding start for Our Specialities*/
+ 
+ .dropdown-containt{
+ display: none;
+ }
+ 
+ .header ul li:hover .dropdown-containt{
+ display: block;
+ position: absolute;
+ background: #E6E6FA;
+ margin-left: -15px;
+ margin-top: 15px;
+ 
+ }
+ .header ul li:hover .dropdown-containt ul{
+ display: inline-block;
+ margin: 10px; 
+ }
+ .active, .header ul li:hover{
+ background: #FAFAD2;
+ border-radius: 3px;
+ }
+ 
+ /* Drop down coding end for Our Specialities*/
+ 
+ .containt{
+  color: black;
+  text-decoration: none;
+ }
+ 
+  /* Drop down coding start for Facilities */
+  
+ .Facility{
+ display: none;
+ }
+ 
+ .header ul li:hover .Facility{
+ display: block;
+ position: absolute;
+ background: #E6E6FA;
+ margin-left: -15px;
+ margin-top: 15px;
+ }
+ 
+  .header ul li:hover .Facility ul{
+ display: inline-block;
+ margin: 10px; 
+ }
+ 
+  /* Drop down coding end for Facilities */
+ 
+ .Facility ul li a{
+ text-align: center;
+ font-size: large;
+ 
+ }
+ .header ul li a{
+ text-align: center;
+ font-size: large;
+ 
+ }
+ 
+  /* Drop down coding start for our doctor */
+ .doctor{
+ display: none;
+ }
+ 
+ 
+ 
+ .header ul li:hover .doctor{
+ display: block;
+ position: absolute;
+ background: #E6E6FA;
+ margin-left: -15px;
+ margin-top: 15px;
+ }
+ 
+  .header ul li:hover .doctor ul{
+ display: inline-block;
+ margin: 10px; 
+ } 
+ 
+ /* Drop down coding end for our Doctor */
+ 
+ .log{
+ background-color: black;
+ width: 20%;
+ height: 30vh;
+ border-radius: 25px;
+ margin: auto;
+margin-top: 10%;
+ }
+ .log h4{
+ color: white;
+text-align: center;
+font-size:150%;
+padding: 10px;
+padding-bottom: 15px;
+ }
+ .log tr td{
+
+color: white;
+font-size:large;
+text-align: center;
+
+	
+}
+.log tr td input{
+	border-color: black;
+	border-radius: 25px;
+	height: 3vh;
+	
+
+}
+ .green{
+ color: green;
+ width: 100px;
+ margin-top: 15px;
+ }
+ .sav{
+ margin-top: 10px;
+ margin-left: 24%;
+ }
+  .admin_login{
+ background-color: #FFFFFF;
+ width: 20%;
+ height: 40vh;
+ border-radius: 25px;
+ margin: auto;
+margin-top: 2%;
+border-style: groove;
+border-color: green;
+  }
+ .admin_login h4{
+  color: black;
+  font-size: 150%;
+  text-align: center;
+  padding: 20px;
+   }
+ .admin_login tr td{
+ text-align: center;
+ font-size: 120%;
+ color: purple;
+ }  
+ .admin_login tr td input{
+ border-color: olive;
+ border-radius: 25px;
+ height: 3vh;
+ }
+ 
+ #invalid{
+ color: red;
+text-align: center;
+padding-top: 5%;
+  }
+   
+   /* back button */
+   .back_button {
+   text-align: right;
+   }
+   .back_button button{
+   border-color: red;
+   font-size: 20px;
+   border-radius: 25px;
+   }
+   
+   .back_button button:hover {
+	background: green;
+}
+  
